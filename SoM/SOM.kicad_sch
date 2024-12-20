@@ -1,0 +1,890 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c757b8cf-3468-4400-9bb6-90fe91f2fe05")
+	(paper "A4")
+	(title_block
+		(title "CCSoM")
+		(date "2024-12-20")
+		(rev "1.0")
+		(company "Technische Hochschule Köln")
+		(comment 1 "Felix Sebastian Nitz ")
+	)
+	(lib_symbols
+		(symbol "ccsom_lib:Logo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "log"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 143.51 74.93) (xy 166.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0324e0-244a-4a78-aaac-918782fd61a2")
+	)
+	(bus
+		(pts
+			(xy 143.51 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2507b0a9-fd6d-4465-86f2-bf488d13c54d")
+	)
+	(bus
+		(pts
+			(xy 143.51 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36aadff2-951e-4020-881b-1a44545d0653")
+	)
+	(bus
+		(pts
+			(xy 143.51 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b400a1-26e6-43b6-8009-93bec6351fb3")
+	)
+	(wire
+		(pts
+			(xy 93.98 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7346e1-daf7-4f0c-b15b-079b5a9d37d6")
+	)
+	(bus
+		(pts
+			(xy 143.51 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dcebe4-5240-4edf-b41c-17f3dc65a811")
+	)
+	(bus
+		(pts
+			(xy 143.51 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cd31b5-4d8b-47cc-8a12-8aeaa36382e8")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8906bafd-f27d-44e7-a900-3e65a8ccca4f")
+	)
+	(bus
+		(pts
+			(xy 143.51 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bfe499-cfb4-47c5-8a16-de211d0022c6")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 166.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3dc2fc-ca16-4514-9a54-6bd549c2dd9c")
+	)
+	(bus
+		(pts
+			(xy 143.51 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33f9613-d86c-42f4-b212-dddaf08fc2a0")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ae6d42-bfbc-42b4-8add-3c774ad4b3c7")
+	)
+	(bus
+		(pts
+			(xy 143.51 119.38) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9e58a2-e201-4f1e-80dd-94c5b62f6300")
+	)
+	(bus
+		(pts
+			(xy 143.51 93.98) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ffa6f3-493f-4671-887c-f7060144622e")
+	)
+	(bus
+		(pts
+			(xy 143.51 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f5ba60-c60b-477f-a690-70d6dd3ff0cd")
+	)
+	(bus
+		(pts
+			(xy 143.51 83.82) (xy 166.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66a5dc0-0da5-41cf-abaa-48881749f8e7")
+	)
+	(bus
+		(pts
+			(xy 143.51 86.36) (xy 166.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f165df77-a05a-4ca5-a5d1-a8d3d4b643e6")
+	)
+	(symbol
+		(lib_id "ccsom_lib:Logo")
+		(at 82.296 95.758 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "22071770-5025-413c-88ff-3fbd7cbaa8cb")
+		(property "Reference" "log1"
+			(at 81.026 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 83.566 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ccsom_Footprint_lib:PinguinLogo"
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SOM"
+				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
+					(reference "log1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ccsom_lib:Logo")
+		(at 82.296 99.568 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbc90822-c67d-4f0c-9284-e7277dc92948")
+		(property "Reference" "log2"
+			(at 80.772 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 83.566 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ccsom_Footprint_lib:OpenHardwareLogo"
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SOM"
+				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
+					(reference "log2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 76.454)
+		(size 17.78 9.906)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "449d2f53-14b2-466a-8a16-65e408449f6b")
+		(property "Sheetname" "DCDC_Regulator"
+			(at 76.2 75.7424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DCDC.kicad_sch"
+			(at 76.2 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCore_Adj" input
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d18dd58-3363-4a71-a9f3-cedaef73b2b4")
+		)
+		(pin "~{VCore_Adj_en}" input
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3d2fbf8e-336b-4ad2-b325-2251a2dcb4c3")
+		)
+		(instances
+			(project "SOM"
+				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 67.31)
+		(size 24.13 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba626ee9-3d0b-42fb-8b3a-d778a0c9c44b")
+		(property "Sheetname" "SODIM_Connector"
+			(at 166.37 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SODIM.kicad_sch"
+			(at 166.37 123.1396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{VDD_EX}" output
+			(at 166.37 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba7be81e-7ae1-4f5c-bf84-e433fc2c472f")
+		)
+		(pin "{CFG}" output
+			(at 166.37 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e8f3e3a-fa68-4761-842d-0c28f268b2df")
+		)
+		(pin "{JTAG}" bidirectional
+			(at 166.37 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd7a944a-8da1-49d5-874c-7953dd78c1be")
+		)
+		(pin "~{APP_Reset}" output
+			(at 166.37 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05381dda-39cf-431a-b44c-fefd73729a54")
+		)
+		(pin "CFG_Done" input
+			(at 166.37 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e22f1933-946d-47d3-a997-36ab87bb343f")
+		)
+		(pin "~{CFG_Failed}" input
+			(at 166.37 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ad75349-7ac0-4eec-a67a-d691a6c62cfd")
+		)
+		(pin "{SerDes}" bidirectional
+			(at 166.37 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e99aacca-df1e-4455-9904-165c0f44b1a5")
+		)
+		(pin "{North_A}" bidirectional
+			(at 166.37 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29b81d50-529b-4c76-af8d-90e65b83e16f")
+		)
+		(pin "{West_B}" bidirectional
+			(at 166.37 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "472c7d7d-f559-4041-acfb-aeb82dfb2520")
+		)
+		(pin "{North_B}" bidirectional
+			(at 166.37 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e09f4b8-0ca6-41f9-9e36-c91a8013e633")
+		)
+		(pin "{East_A}" bidirectional
+			(at 166.37 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94e81970-b892-48d0-8aa0-a0b5ec3632ab")
+		)
+		(pin "{South_B}" bidirectional
+			(at 166.37 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c141783-fbab-4b13-abcd-d664d66a1dba")
+		)
+		(pin "{South_A}" bidirectional
+			(at 166.37 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbb05ad5-a2c4-471e-9d87-8366b8a4b411")
+		)
+		(pin "{West_C}" bidirectional
+			(at 166.37 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23c221a6-77ec-4917-b0d7-645524cf178f")
+		)
+		(pin "{East_B}" bidirectional
+			(at 166.37 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68379870-a10b-4e31-ae1b-2dc600302837")
+		)
+		(instances
+			(project "SOM"
+				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 67.31)
+		(size 29.21 54.61)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddf7695b-2f4c-40e7-a90d-2a18bfec2aa9")
+		(property "Sheetname" "FPGA_Top_Module"
+			(at 114.3 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_TOP.kicad_sch"
+			(at 114.3 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "~{APP_Reset}" input
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "615ccf64-3109-4ae7-9f18-0b902e24a8b4")
+		)
+		(pin "{JTAG}" bidirectional
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "818003d1-9534-4401-9c2c-b62a8da3a6bb")
+		)
+		(pin "{VDD_EX}" input
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c45bf3f1-91bf-41c1-974f-f3a4166e4b20")
+		)
+		(pin "{SerDes}" bidirectional
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90fc34b4-5a43-4fdb-909f-2c451ea16471")
+		)
+		(pin "{CFG}" input
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b45f59b2-0619-4e35-914f-f968db80470c")
+		)
+		(pin "CFG_Done" output
+			(at 143.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7679c800-e7f3-4d00-9ec3-5d83fcb6da55")
+		)
+		(pin "~{VCore_Adj_en}" output
+			(at 114.3 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "abd7c34a-75d5-4699-b750-2a4d950af243")
+		)
+		(pin "VCore_Adj" output
+			(at 114.3 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be7a8130-b448-4081-a19a-bac053c6048c")
+		)
+		(pin "{West_C}" bidirectional
+			(at 143.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8ea2613-a6d4-4397-a9af-a148096786c4")
+		)
+		(pin "{East_B}" bidirectional
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d443a38-3af2-4e2b-b043-cbecff2c4034")
+		)
+		(pin "{South_B}" bidirectional
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "402aaafa-1e25-4c99-8cd9-9d158ba745b1")
+		)
+		(pin "{South_A}" bidirectional
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5eef3ca-68c5-453a-980c-934671b125cb")
+		)
+		(pin "{West_B}" bidirectional
+			(at 143.51 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1b787ee3-e893-486f-bd48-cbcc54df8460")
+		)
+		(pin "{North_B}" bidirectional
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acc8a21d-d55b-4d55-a888-054935acdb7c")
+		)
+		(pin "{East_A}" bidirectional
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46ecb5cd-dbdf-4bf4-8760-ffdd1c64f9ec")
+		)
+		(pin "{North_A}" bidirectional
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7677d2c5-a0d7-49e7-a534-b4f24a826922")
+		)
+		(pin "~{CFG_Failed}" output
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "408346e4-7ec1-4b19-bbf1-b0954e352aa9")
+		)
+		(instances
+			(project "SOM"
+				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

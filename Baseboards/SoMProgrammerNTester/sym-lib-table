@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ccsom_lib")(type "KiCad")(uri "/Users/fnitz/CcSoM/Library/ccsom_lib.kicad_sym")(options "")(descr ""))
+)
