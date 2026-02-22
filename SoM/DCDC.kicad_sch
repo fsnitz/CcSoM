@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "707ecebe-3289-4fc7-a871-16b84eff3c21")
 	(paper "A4")
 	(title_block
@@ -86,51 +86,6 @@
 				)
 			)
 			(symbol "74LVC2G53_1_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.556)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -0.381)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
 						(xy -3.81 0) (xy -2.54 0)
@@ -145,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 1.27 -2.54)
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -155,24 +110,11 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.27 2.54)
-					)
+				(circle
+					(center -2.54 0)
+					(radius 0.127)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -181,31 +123,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.016) (xy 0 0) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 0 -3.175) (xy -1.27 -3.81) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -2.54) (xy 0 -1.905) (xy -1.27 -1.27)
+						(xy -1.27 3.81) (xy 0 3.175) (xy -1.27 2.54) (xy -1.27 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -229,7 +147,65 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 3.81) (xy 0 3.175) (xy -1.27 2.54) (xy -1.27 3.81)
+						(xy -1.27 2.54) (xy -2.54 2.54) (xy -2.54 0) (xy -2.54 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -2.54) (xy 0 -1.905) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -3.175) (xy -1.27 -3.81) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 3.556)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.397)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 0) (xy 0 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -251,21 +227,43 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -0.381)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.556)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0 -3.175) (xy 1.27 -3.81) (xy 1.27 -2.54)
+						(xy 0 -3.81) (xy 0 -5.08) (xy 2.54 -5.08)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 -2.54) (xy 0 -1.905) (xy 1.27 -1.27)
+						(xy 1.27 2.54) (xy 1.27 3.81) (xy 0 3.175) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -289,7 +287,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 1.27 3.81) (xy 0 3.175) (xy 1.27 2.54)
+						(xy 1.27 -1.27) (xy 1.27 -2.54) (xy 0 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -3.175) (xy 1.27 -3.81) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -311,40 +321,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -2.54 2.54) (xy -2.54 0) (xy -2.54 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.397)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.556)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 1.905 -5.08)
 					(radius 0.127)
@@ -354,6 +330,30 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin bidirectional line
@@ -367,24 +367,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -411,6 +393,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 7.62 -2.54 180)
 					(length 5.08)
 					(name "~"
@@ -428,8 +428,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 7.62 2.54 180)
+				(pin input line
+					(at 7.62 -5.08 180)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -438,7 +438,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -457,6 +457,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin power_in line
@@ -479,7 +497,8 @@
 				)
 				(pin passive line
 					(at 0 -10.16 90)
-					(length 5.08) hide
+					(length 5.08)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -495,30 +514,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -616,9 +622,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -691,7 +700,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -703,7 +712,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -752,11 +761,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -824,10 +838,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -848,7 +874,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -860,22 +886,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -921,9 +935,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1042,10 +1059,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC847"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1118,6 +1138,18 @@
 			(symbol "BC847_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -1140,12 +1172,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1164,17 +1195,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "BC847_1_1"
 				(pin input line
@@ -1188,24 +1208,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1231,7 +1233,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ccsom_lib:MPM3833C"
 			(exclude_from_sim no)
@@ -1292,78 +1313,6 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 10.16 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -10.16 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -1.27 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -13.97 15.24 0)
 					(length 2.54)
@@ -1400,45 +1349,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 20.32 270)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at -13.97 5.08 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DNC"
 						(effects
 							(font
@@ -1456,7 +1370,8 @@
 				)
 				(pin no_connect line
 					(at -13.97 5.08 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "DNC"
 						(effects
 							(font
@@ -1472,71 +1387,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 20.32 270)
-					(length 2.54) hide
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 11.43 -1.27 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 7.62 180)
-					(length 2.54) hide
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
-					(at 11.43 7.62 180)
+					(at -13.97 -1.27 0)
 					(length 2.54)
-					(name "OUT_S"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1565,6 +1426,25 @@
 				(pin passive line
 					(at -5.08 20.32 270)
 					(length 2.54)
+					(hide yes)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 20.32 270)
+					(length 2.54)
 					(name "SW"
 						(effects
 							(font
@@ -1573,6 +1453,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -10.16 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1599,6 +1497,24 @@
 					)
 				)
 				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 20.32 270)
 					(length 2.54)
 					(name "SW"
@@ -1609,6 +1525,42 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 20.32 270)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1652,7 +1604,81 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 11.43 10.16 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "OUT_S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ccsom_lib:Vin5V"
 			(power)
@@ -1730,7 +1756,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1742,7 +1768,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1756,7 +1782,8 @@
 			(symbol "Vin5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1773,12 +1800,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+2V5"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1850,7 +1882,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1862,7 +1894,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1893,12 +1925,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1989,7 +2026,103 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Power Good LED"
+		(exclude_from_sim no)
+		(at 191.516 83.058 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "083f93d2-691a-4fb7-8984-5d5dde6d382d")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 223.52 146.558 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "20ab87f3-c676-4fc3-b8c0-3c2787c99657")
+	)
+	(text "Vcore LED"
+		(exclude_from_sim no)
+		(at 255.524 82.804 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "566d9e80-bf7e-4bb0-a1bf-32a53b954834")
+	)
+	(text "Vcore Supply Voltage 1V / 3A"
+		(exclude_from_sim no)
+		(at 80.264 31.496 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "7aac4dd6-bd36-4a3c-8579-6e6767c3c257")
+	)
+	(text "IO Supply Voltage 2.5V / 3A"
+		(exclude_from_sim no)
+		(at 86.106 118.364 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "868fb67e-a31d-46c7-8730-b6022b3af076")
+	)
+	(text "VCore Adjustment"
+		(exclude_from_sim no)
+		(at 226.568 20.32 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "b9d9818f-fc0f-471d-bca5-2e8c2164772e")
+	)
+	(text_box "Core Voltage Level Adjustment \n\nPin 2 high & Pin 5 low:		0.90V (low power mode)\nPin 5 high: 					1.00V (economy mode)\nPin 2 low & Pin 5 low: 		1.10V (speed mode)\n\ndefault : 1.00V"
+		(exclude_from_sim no)
+		(at 232.664 36.322 0)
+		(size 48.514 16.002)
+		(margins 0.9652 0.9652 0.9652 0.9652)
+		(stroke
+			(width 0.0254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.24)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0b43ae0b-9209-4a95-bcc7-0987e5aef338")
 	)
 	(junction
 		(at 97.79 135.89)
@@ -3565,103 +3698,8 @@
 		)
 		(uuid "feaec90d-655a-4ff0-a5b7-a26574f1397c")
 	)
-	(text_box "Core Voltage Level Adjustment \n\nPin 2 high & Pin 5 low:		0.90V (low power mode)\nPin 5 high: 					1.00V (economy mode)\nPin 2 low & Pin 5 low: 		1.10V (speed mode)\n\ndefault : 1.00V"
-		(exclude_from_sim no)
-		(at 232.664 36.322 0)
-		(size 48.514 16.002)
-		(stroke
-			(width 0.0254)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.24)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "0b43ae0b-9209-4a95-bcc7-0987e5aef338")
-	)
-	(text "Power Good LED"
-		(exclude_from_sim no)
-		(at 191.516 83.058 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-				(thickness 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "083f93d2-691a-4fb7-8984-5d5dde6d382d")
-	)
-	(text "Test Points"
-		(exclude_from_sim no)
-		(at 223.52 146.558 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-				(thickness 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "20ab87f3-c676-4fc3-b8c0-3c2787c99657")
-	)
-	(text "Vcore LED"
-		(exclude_from_sim no)
-		(at 255.524 82.804 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-				(thickness 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "566d9e80-bf7e-4bb0-a1bf-32a53b954834")
-	)
-	(text "Vcore Supply Voltage 1V / 3A"
-		(exclude_from_sim no)
-		(at 80.264 31.496 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-				(thickness 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "7aac4dd6-bd36-4a3c-8579-6e6767c3c257")
-	)
-	(text "IO Supply Voltage 2.5V / 3A"
-		(exclude_from_sim no)
-		(at 86.106 118.364 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-				(thickness 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "868fb67e-a31d-46c7-8730-b6022b3af076")
-	)
-	(text "VCore Adjustment"
-		(exclude_from_sim no)
-		(at 226.568 20.32 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-				(thickness 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "b9d9818f-fc0f-471d-bca5-2e8c2164772e")
-	)
 	(label "2V5PG"
 		(at 55.88 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3672,7 +3710,6 @@
 	)
 	(label "VcorePG"
 		(at 55.88 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3683,7 +3720,6 @@
 	)
 	(label "VcorePG"
 		(at 57.15 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3694,7 +3730,6 @@
 	)
 	(label "2V5PG"
 		(at 214.63 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,7 +3740,6 @@
 	)
 	(label "2V5PG"
 		(at 242.57 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3716,7 +3750,6 @@
 	)
 	(label "VcoreFeedback"
 		(at 96.52 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3727,7 +3760,6 @@
 	)
 	(label "VcoreFeedback"
 		(at 180.34 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3739,7 +3771,6 @@
 	(hierarchical_label "VCore_Adj"
 		(shape input)
 		(at 224.79 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3751,7 +3782,6 @@
 	(hierarchical_label "~{VCore_Adj_en}"
 		(shape input)
 		(at 215.9 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3785,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.868 59.69 90)
 			(effects
 				(font
@@ -3812,7 +3842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -3831,6 +3861,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -3912,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "637-BC847C-C"
+		(property "Mouser Part Number" "BC847C-C"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -3931,6 +3970,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BC847C-C"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -3982,7 +4030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.218 38.1 90)
 			(effects
 				(font
@@ -4009,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 218.44 38.1 0)
 			(effects
 				(font
@@ -4028,6 +4076,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 218.44 38.1 0)
 			(effects
 				(font
@@ -4078,7 +4135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.93 123.952 90)
 			(effects
 				(font
@@ -4105,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -4125,6 +4182,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
+			(at 201.93 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.782 74.93 90)
 			(effects
 				(font
@@ -4333,7 +4399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW020151K0FKED"
+		(property "Mouser Part Number" "CRCW040251K0FKEDC"
 			(at 35.56 74.93 0)
 			(effects
 				(font
@@ -4352,6 +4418,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW040251K0FKEDC"
 			(at 35.56 74.93 0)
 			(effects
 				(font
@@ -4401,7 +4476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.84 154.178 90)
 			(effects
 				(font
@@ -4428,7 +4503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201200KFNED"
+		(property "Mouser Part Number" "CRCW0402200KFKEDC"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -4448,6 +4523,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW0402200KFKEDC"
+			(at 116.84 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "946-MPM3833CGRH-Z"
+		(property "Mouser Part Number" "MPM3833CGRH-Z"
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -4608,6 +4692,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MPM3833CGRH-Z"
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -5004,7 +5097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "710-150060VS75000"
+		(property "Mouser Part Number" "150060VS75000"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -5024,6 +5117,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060VS75000"
+			(at 180.34 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +5177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 194.818 110.49 90)
 			(effects
 				(font
@@ -5102,7 +5204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW020112K0FNED"
+		(property "Mouser Part Number" "MCS04020C1202FE000"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -5121,6 +5223,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS04020C1202FE000"
 			(at 193.04 110.49 0)
 			(effects
 				(font
@@ -5237,7 +5348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 258.572 101.6 90)
 			(effects
 				(font
@@ -5264,7 +5375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW02011K00FNED"
+		(property "Mouser Part Number" "MCS04020C1001FE000"
 			(at 260.35 101.6 0)
 			(effects
 				(font
@@ -5283,6 +5394,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 260.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS04020C1001FE000"
 			(at 260.35 101.6 0)
 			(effects
 				(font
@@ -5335,7 +5455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.118 105.41 90)
 			(effects
 				(font
@@ -5362,7 +5482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW02011K00FNED"
+		(property "Mouser Part Number" "MCS04020C1001FE000"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -5381,6 +5501,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS04020C1001FE000"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -5562,7 +5691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 242.57 122.682 90)
 			(effects
 				(font
@@ -5589,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 242.57 124.46 0)
 			(effects
 				(font
@@ -5609,6 +5738,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 242.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
+			(at 242.57 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.628 58.42 90)
 			(effects
 				(font
@@ -5751,7 +5889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW020162K0FNED"
+		(property "Mouser Part Number" "CRCW040262K0FKED"
 			(at 196.85 58.42 0)
 			(effects
 				(font
@@ -5770,6 +5908,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW040262K0FKED"
 			(at 196.85 58.42 0)
 			(effects
 				(font
@@ -6006,6 +6153,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 204.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "199a1a04-927e-435d-8589-053171afa518")
 		)
@@ -6137,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-SN74LVC2G53DCUR"
+		(property "Mouser Part Number" "SN74LVC2G53DCUR"
 			(at 194.31 44.45 0)
 			(effects
 				(font
@@ -6157,6 +6313,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 194.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SN74LVC2G53DCUR"
+			(at 194.31 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6457,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.992 58.42 90)
 			(effects
 				(font
@@ -6319,7 +6484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201120KFNED"
+		(property "Mouser Part Number" "MCS04020C1203FE000"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -6338,6 +6503,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS04020C1203FE000"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -6416,7 +6590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A226KQ8NRNE"
+		(property "Mouser Part Number" "GRM188C61C226ME01W"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -6435,6 +6609,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188C61C226ME01W"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -6552,7 +6735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.768 44.45 90)
 			(effects
 				(font
@@ -6579,7 +6762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "MCS04020C2403FE000"
 			(at 173.99 44.45 0)
 			(effects
 				(font
@@ -6598,6 +6781,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 173.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS04020C2403FE000"
 			(at 173.99 44.45 0)
 			(effects
 				(font
@@ -6675,7 +6867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "710-150060VS75000"
+		(property "Mouser Part Number" "150060VS75000"
 			(at 260.35 113.03 0)
 			(effects
 				(font
@@ -6695,6 +6887,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060VS75000"
+			(at 260.35 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +7103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-SN74LVC2G53DCUR"
+		(property "Mouser Part Number" "SN74LVC2G53DCUR"
 			(at 259.08 67.31 0)
 			(effects
 				(font
@@ -6922,6 +7123,15 @@
 		)
 		(property "Sim.Pins" ""
 			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SN74LVC2G53DCUR"
+			(at 259.08 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +7200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.022 44.45 90)
 			(effects
 				(font
@@ -7017,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW020147K0FNED"
+		(property "Mouser Part Number" "CRCW040247K0FKED"
 			(at 177.8 44.45 0)
 			(effects
 				(font
@@ -7036,6 +7246,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW040247K0FKED"
 			(at 177.8 44.45 0)
 			(effects
 				(font
@@ -7087,7 +7306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.782 63.5 90)
 			(effects
 				(font
@@ -7114,7 +7333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201100KFNED"
+		(property "Mouser Part Number" "MCS04020C1003FE000"
 			(at 35.56 63.5 0)
 			(effects
 				(font
@@ -7133,6 +7352,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS04020C1003FE000"
 			(at 35.56 63.5 0)
 			(effects
 				(font
@@ -7237,6 +7465,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b955ddf-f56b-4068-be0f-636dd32a7277")
 		)
@@ -7302,7 +7539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "946-MPM3833CGRH-Z"
+		(property "Mouser Part Number" "MPM3833CGRH-Z"
 			(at 82.55 151.13 0)
 			(effects
 				(font
@@ -7321,6 +7558,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MPM3833CGRH-Z"
 			(at 82.55 151.13 0)
 			(effects
 				(font
@@ -7461,7 +7707,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A226KQ8NRNE"
+		(property "Mouser Part Number" "GRM188C61C226ME01W"
 			(at 48.26 139.7 0)
 			(effects
 				(font
@@ -7480,6 +7726,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188C61C226ME01W"
 			(at 48.26 139.7 0)
 			(effects
 				(font
@@ -7560,7 +7815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "637-BC847C-C"
+		(property "Mouser Part Number" "BC847C-C"
 			(at 257.81 124.46 0)
 			(effects
 				(font
@@ -7579,6 +7834,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BC847C-C"
 			(at 257.81 124.46 0)
 			(effects
 				(font
@@ -7630,7 +7894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.792 55.88 90)
 			(effects
 				(font
@@ -7657,7 +7921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-20K"
+		(property "Mouser Part Number" "CRCW040220K0FKED"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -7676,6 +7940,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW040220K0FKED"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -7951,7 +8224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A226KQ8NRNE"
+		(property "Mouser Part Number" "GRM188C61C226ME01W"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -7970,6 +8243,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188C61C226ME01W"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -8021,7 +8303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 107.188 161.29 90)
 			(effects
 				(font
@@ -8048,7 +8330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW020163K4FNED"
+		(property "Mouser Part Number" "CRCW040263K4FKED"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -8067,6 +8349,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW040263K4FKED"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -8277,7 +8568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "187-CL10A226KQ8NRNE"
+		(property "Mouser Part Number" "GRM188C61C226ME01W"
 			(at 48.26 53.34 0)
 			(effects
 				(font
@@ -8296,6 +8587,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM188C61C226ME01W"
 			(at 48.26 53.34 0)
 			(effects
 				(font

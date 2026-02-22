@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "CAS-220B/DD20B_NDC"
-			(at 0 0 0)
+			(at -1.524 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "CAS-D20TB"
-			(at 0 0 0)
+			(at -0.254 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,8 +307,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
+				(at 3.81 0 0)
+				(length 3.81)
 				(name "1"
 					(effects
 						(font
@@ -325,8 +325,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -2.54 0)
-				(length 7.62)
+				(at 3.81 -2.54 0)
+				(length 3.81)
 				(name "2"
 					(effects
 						(font
@@ -343,8 +343,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at 3.81 -5.08 0)
+				(length 3.81)
 				(name "3"
 					(effects
 						(font
@@ -361,8 +361,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -5.08 180)
-				(length 7.62)
+				(at 24.13 -5.08 180)
+				(length 3.81)
 				(name "4"
 					(effects
 						(font
@@ -379,8 +379,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -2.54 180)
-				(length 7.62)
+				(at 24.13 -2.54 180)
+				(length 3.81)
 				(name "5"
 					(effects
 						(font
@@ -397,8 +397,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 0 180)
-				(length 7.62)
+				(at 24.13 0 180)
+				(length 3.81)
 				(name "6"
 					(effects
 						(font

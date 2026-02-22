@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c757b8cf-3468-4400-9bb6-90fe91f2fe05")
 	(paper "A4")
 	(title_block
@@ -73,6 +73,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -326,6 +327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 82.296 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SOM"
 				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
@@ -416,6 +426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 82.296 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SOM"
 				(path "/c757b8cf-3468-4400-9bb6-90fe91f2fe05"
@@ -428,6 +447,10 @@
 	(sheet
 		(at 76.2 76.454)
 		(size 17.78 9.906)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -458,23 +481,23 @@
 		)
 		(pin "VCore_Adj" input
 			(at 93.98 80.01 0)
+			(uuid "9d18dd58-3363-4a71-a9f3-cedaef73b2b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d18dd58-3363-4a71-a9f3-cedaef73b2b4")
 		)
 		(pin "~{VCore_Adj_en}" input
 			(at 93.98 82.55 0)
+			(uuid "3d2fbf8e-336b-4ad2-b325-2251a2dcb4c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3d2fbf8e-336b-4ad2-b325-2251a2dcb4c3")
 		)
 		(instances
 			(project "SOM"
@@ -487,6 +510,10 @@
 	(sheet
 		(at 166.37 67.31)
 		(size 24.13 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -517,153 +544,153 @@
 		)
 		(pin "{VDD_EX}" output
 			(at 166.37 81.28 180)
+			(uuid "ba7be81e-7ae1-4f5c-bf84-e433fc2c472f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba7be81e-7ae1-4f5c-bf84-e433fc2c472f")
 		)
 		(pin "{CFG}" output
 			(at 166.37 88.9 180)
+			(uuid "9e8f3e3a-fa68-4761-842d-0c28f268b2df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9e8f3e3a-fa68-4761-842d-0c28f268b2df")
 		)
 		(pin "{JTAG}" bidirectional
 			(at 166.37 86.36 180)
+			(uuid "dd7a944a-8da1-49d5-874c-7953dd78c1be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd7a944a-8da1-49d5-874c-7953dd78c1be")
 		)
 		(pin "~{APP_Reset}" output
 			(at 166.37 69.85 180)
+			(uuid "05381dda-39cf-431a-b44c-fefd73729a54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "05381dda-39cf-431a-b44c-fefd73729a54")
 		)
 		(pin "CFG_Done" input
 			(at 166.37 72.39 180)
+			(uuid "e22f1933-946d-47d3-a997-36ab87bb343f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e22f1933-946d-47d3-a997-36ab87bb343f")
 		)
 		(pin "~{CFG_Failed}" input
 			(at 166.37 74.93 180)
+			(uuid "3ad75349-7ac0-4eec-a67a-d691a6c62cfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3ad75349-7ac0-4eec-a67a-d691a6c62cfd")
 		)
 		(pin "{SerDes}" bidirectional
 			(at 166.37 83.82 180)
+			(uuid "e99aacca-df1e-4455-9904-165c0f44b1a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e99aacca-df1e-4455-9904-165c0f44b1a5")
 		)
 		(pin "{North_A}" bidirectional
 			(at 166.37 93.98 180)
+			(uuid "29b81d50-529b-4c76-af8d-90e65b83e16f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "29b81d50-529b-4c76-af8d-90e65b83e16f")
 		)
 		(pin "{West_B}" bidirectional
 			(at 166.37 116.84 180)
+			(uuid "472c7d7d-f559-4041-acfb-aeb82dfb2520")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "472c7d7d-f559-4041-acfb-aeb82dfb2520")
 		)
 		(pin "{North_B}" bidirectional
 			(at 166.37 96.52 180)
+			(uuid "5e09f4b8-0ca6-41f9-9e36-c91a8013e633")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e09f4b8-0ca6-41f9-9e36-c91a8013e633")
 		)
 		(pin "{East_A}" bidirectional
 			(at 166.37 101.6 180)
+			(uuid "94e81970-b892-48d0-8aa0-a0b5ec3632ab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "94e81970-b892-48d0-8aa0-a0b5ec3632ab")
 		)
 		(pin "{South_B}" bidirectional
 			(at 166.37 111.76 180)
+			(uuid "3c141783-fbab-4b13-abcd-d664d66a1dba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3c141783-fbab-4b13-abcd-d664d66a1dba")
 		)
 		(pin "{South_A}" bidirectional
 			(at 166.37 109.22 180)
+			(uuid "cbb05ad5-a2c4-471e-9d87-8366b8a4b411")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbb05ad5-a2c4-471e-9d87-8366b8a4b411")
 		)
 		(pin "{West_C}" bidirectional
 			(at 166.37 119.38 180)
+			(uuid "23c221a6-77ec-4917-b0d7-645524cf178f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "23c221a6-77ec-4917-b0d7-645524cf178f")
 		)
 		(pin "{East_B}" bidirectional
 			(at 166.37 104.14 180)
+			(uuid "68379870-a10b-4e31-ae1b-2dc600302837")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "68379870-a10b-4e31-ae1b-2dc600302837")
 		)
 		(instances
 			(project "SOM"
@@ -676,6 +703,10 @@
 	(sheet
 		(at 114.3 67.31)
 		(size 29.21 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -706,173 +737,173 @@
 		)
 		(pin "~{APP_Reset}" input
 			(at 143.51 69.85 0)
+			(uuid "615ccf64-3109-4ae7-9f18-0b902e24a8b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "615ccf64-3109-4ae7-9f18-0b902e24a8b4")
 		)
 		(pin "{JTAG}" bidirectional
 			(at 143.51 86.36 0)
+			(uuid "818003d1-9534-4401-9c2c-b62a8da3a6bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "818003d1-9534-4401-9c2c-b62a8da3a6bb")
 		)
 		(pin "{VDD_EX}" input
 			(at 143.51 81.28 0)
+			(uuid "c45bf3f1-91bf-41c1-974f-f3a4166e4b20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c45bf3f1-91bf-41c1-974f-f3a4166e4b20")
 		)
 		(pin "{SerDes}" bidirectional
 			(at 143.51 83.82 0)
+			(uuid "90fc34b4-5a43-4fdb-909f-2c451ea16471")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "90fc34b4-5a43-4fdb-909f-2c451ea16471")
 		)
 		(pin "{CFG}" input
 			(at 143.51 88.9 0)
+			(uuid "b45f59b2-0619-4e35-914f-f968db80470c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b45f59b2-0619-4e35-914f-f968db80470c")
 		)
 		(pin "CFG_Done" output
 			(at 143.51 72.39 0)
+			(uuid "7679c800-e7f3-4d00-9ec3-5d83fcb6da55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7679c800-e7f3-4d00-9ec3-5d83fcb6da55")
 		)
 		(pin "~{VCore_Adj_en}" output
 			(at 114.3 82.55 180)
+			(uuid "abd7c34a-75d5-4699-b750-2a4d950af243")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abd7c34a-75d5-4699-b750-2a4d950af243")
 		)
 		(pin "VCore_Adj" output
 			(at 114.3 80.01 180)
+			(uuid "be7a8130-b448-4081-a19a-bac053c6048c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be7a8130-b448-4081-a19a-bac053c6048c")
 		)
 		(pin "{West_C}" bidirectional
 			(at 143.51 119.38 0)
+			(uuid "d8ea2613-a6d4-4397-a9af-a148096786c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8ea2613-a6d4-4397-a9af-a148096786c4")
 		)
 		(pin "{East_B}" bidirectional
 			(at 143.51 104.14 0)
+			(uuid "6d443a38-3af2-4e2b-b043-cbecff2c4034")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6d443a38-3af2-4e2b-b043-cbecff2c4034")
 		)
 		(pin "{South_B}" bidirectional
 			(at 143.51 111.76 0)
+			(uuid "402aaafa-1e25-4c99-8cd9-9d158ba745b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "402aaafa-1e25-4c99-8cd9-9d158ba745b1")
 		)
 		(pin "{South_A}" bidirectional
 			(at 143.51 109.22 0)
+			(uuid "a5eef3ca-68c5-453a-980c-934671b125cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a5eef3ca-68c5-453a-980c-934671b125cb")
 		)
 		(pin "{West_B}" bidirectional
 			(at 143.51 116.84 0)
+			(uuid "1b787ee3-e893-486f-bd48-cbcc54df8460")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1b787ee3-e893-486f-bd48-cbcc54df8460")
 		)
 		(pin "{North_B}" bidirectional
 			(at 143.51 96.52 0)
+			(uuid "acc8a21d-d55b-4d55-a888-054935acdb7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "acc8a21d-d55b-4d55-a888-054935acdb7c")
 		)
 		(pin "{East_A}" bidirectional
 			(at 143.51 101.6 0)
+			(uuid "46ecb5cd-dbdf-4bf4-8760-ffdd1c64f9ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "46ecb5cd-dbdf-4bf4-8760-ffdd1c64f9ec")
 		)
 		(pin "{North_A}" bidirectional
 			(at 143.51 93.98 0)
+			(uuid "7677d2c5-a0d7-49e7-a534-b4f24a826922")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7677d2c5-a0d7-49e7-a534-b4f24a826922")
 		)
 		(pin "~{CFG_Failed}" output
 			(at 143.51 74.93 0)
+			(uuid "408346e4-7ec1-4b19-bbf1-b0954e352aa9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "408346e4-7ec1-4b19-bbf1-b0954e352aa9")
 		)
 		(instances
 			(project "SOM"
@@ -887,4 +918,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

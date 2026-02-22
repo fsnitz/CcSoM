@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fb92cb39-1b91-4449-bc6d-d05ecc8791e6")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -113,9 +117,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -188,7 +195,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -200,7 +207,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -249,9 +256,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -370,6 +380,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ccsom_lib:MX25V8035F"
 			(exclude_from_sim no)
@@ -502,17 +513,35 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 26.67 -10.16 180)
+				(pin power_in line
+					(at 26.67 -2.54 180)
 					(length 2.54)
-					(name "SI/SIO0"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -5.08 180)
+					(length 2.54)
+					(name "~{HOLD}/SIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -539,34 +568,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 26.67 -5.08 180)
+					(at 26.67 -10.16 180)
 					(length 2.54)
-					(name "~{HOLD}/SIO3"
+					(name "SI/SIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 26.67 -2.54 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -575,12 +586,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+2V5"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -652,7 +668,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -664,7 +680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -695,12 +711,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -791,7 +812,51 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Solder Option: Select Idle State for SCK\n\nR14: pull-up \nR6: pull-down\n\nPopulation depends on configuration mode."
+		(exclude_from_sim no)
+		(at 223.012 92.202 0)
+		(size 15.875 26.035)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "75c08432-27a1-4392-883e-76c02ed313d1")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 240.665 97.79 0)
+		(size 0 0)
+		(margins 0.4763 0.4763 0.4763 0.4763)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "f1aeaa9e-c119-4ede-a40c-569af4aff2c7")
 	)
 	(junction
 		(at 102.87 86.36)
@@ -1577,51 +1642,9 @@
 		)
 		(uuid "f91d9049-2114-4e93-ae62-52622f868be0")
 	)
-	(text_box "Solder Option: Select Idle State for SCK\n\nR14: pull-up \nR6: pull-down\n\nPopulation depends on configuration mode."
-		(exclude_from_sim no)
-		(at 223.012 92.202 0)
-		(size 15.875 26.035)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "75c08432-27a1-4392-883e-76c02ed313d1")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 240.665 97.79 0)
-		(size 0 0)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "f1aeaa9e-c119-4ede-a40c-569af4aff2c7")
-	)
 	(hierarchical_label "SPI DATA1"
 		(shape bidirectional)
 		(at 62.23 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1633,7 +1656,6 @@
 	(hierarchical_label "SPI DATA2"
 		(shape bidirectional)
 		(at 62.23 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,7 +1667,6 @@
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
 		(at 62.23 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1657,7 +1678,6 @@
 	(hierarchical_label "SPI DATA0"
 		(shape bidirectional)
 		(at 62.23 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1669,7 +1689,6 @@
 	(hierarchical_label "SPI DATA3"
 		(shape bidirectional)
 		(at 62.23 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1681,7 +1700,6 @@
 	(hierarchical_label "SPI_CSN"
 		(shape bidirectional)
 		(at 62.23 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.812 91.44 90)
 			(effects
 				(font
@@ -1745,7 +1763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -1764,6 +1782,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -1869,6 +1896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6ec7ba8-9d2b-4d09-86e7-39f6a60d02e7")
 		)
@@ -1909,7 +1945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.342 92.71 90)
 			(effects
 				(font
@@ -1936,7 +1972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -1955,6 +1991,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 198.12 92.71 0)
 			(effects
 				(font
@@ -2006,7 +2051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 155.702 91.44 90)
 			(effects
 				(font
@@ -2033,7 +2078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -2052,6 +2097,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -2127,7 +2181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "95-25V8035FM1ITR"
+		(property "Mouser Part Number" "MX25V8035FM2I"
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -2146,6 +2200,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MX25V8035FM2I"
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -2335,6 +2398,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a53c280c-ee6b-482a-a8c0-786db060da39")
 		)
@@ -2495,6 +2567,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 71.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8321bd4a-5e7e-4014-a591-11c4c1c9c03b")
 		)
@@ -2581,6 +2662,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -2683,6 +2773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 90.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d56a963-b569-46f8-801e-76cd18cbd04f")
 		)
@@ -2722,7 +2821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.3152 95.25 0)
 			(effects
 				(font
@@ -2758,7 +2857,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "187-CL03A104KP3NNNC"
+		(property "Mouser Part Number" "GRM155R71C104KA88J"
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -2777,6 +2876,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88J"
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -2828,7 +2936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.232 92.71 90)
 			(effects
 				(font
@@ -2855,7 +2963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 207.01 92.71 0)
 			(effects
 				(font
@@ -2874,6 +2982,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 207.01 92.71 0)
 			(effects
 				(font
@@ -2925,7 +3042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.122 92.71 90)
 			(effects
 				(font
@@ -2979,6 +3096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98909d07-2e16-4d8d-896d-e0fabe79e0eb")
 		)
@@ -3021,7 +3147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.0752 95.25 0)
 			(effects
 				(font
@@ -3057,7 +3183,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "187-CL03A104KP3NNNC"
+		(property "Mouser Part Number" "GRM155R71C104KA88J"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -3076,6 +3202,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88J"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -3126,7 +3261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 95.25 0)
 			(effects
 				(font
@@ -3162,7 +3297,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "187-CL03A225KP3CRNC"
+		(property "Mouser Part Number" "GRM155Z71A225KE44D"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -3181,6 +3316,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155Z71A225KE44D"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -3286,6 +3430,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a88d4b47-b49c-4e6e-8b04-4f706537c79d")
 		)
@@ -3326,7 +3479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.592 91.44 90)
 			(effects
 				(font
@@ -3353,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 166.37 91.44 0)
 			(effects
 				(font
@@ -3372,6 +3525,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 166.37 91.44 0)
 			(effects
 				(font
@@ -3423,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.122 115.57 90)
 			(effects
 				(font
@@ -3450,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0201-10K"
+		(property "Mouser Part Number" "MCS0402MC1002FE000"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -3469,6 +3631,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCS0402MC1002FE000"
 			(at 215.9 115.57 0)
 			(effects
 				(font
