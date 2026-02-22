@@ -28,4 +28,4 @@ This project falls under the open hardware licence agreement.
 
 ## Project status
 - SoM revision 1.0 is currently tested with the CCGM1A1 FPGA. Beginning of 2025 an evaluation of its capabilities with an CCGM1A2 will follow.
-- A version of the SoM with a 0402 footprint may be available, depending on demand.
+- A version of the SoM with a 0402 footprint can be found under its designated Tag [0402 Version](https://github.com/fsnitz/CcSoM/tree/VersionWith0402Components).
